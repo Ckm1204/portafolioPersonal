@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-svg-background {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cpolygon points='10,90 90,90 90,10' style='fill: lime;' /%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.font-Metal Mania{
+  font-family: 'Metal Mania', Metal Mania;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../assets/fonts/Raleway-Medium.ttf');
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Metal Mania';
+  src: url(../assets/fonts/MetalMania-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+  font-style: bold;
+}
+
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../assets/fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+}
