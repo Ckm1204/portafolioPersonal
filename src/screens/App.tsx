@@ -2,13 +2,12 @@
 import Header from "../components/Header"
 import Home from "../screens/Home"
 import About from "./About"
-//import Carrusel from "./Carrusel"
-//import Ejemplo from "./Ejemplo"
-//import Galeria from "./Galeria"
+import Carousel from "./Carousel"
+
 import Skills from "./Skills"
 import Knowledge from "./Knowledge"
-//import Contact from "./Contact"
-//import Footer from "../components/Footer"
+import Contact from "./Contact"
+import Footer from "../components/Footer"
 
 
 
@@ -27,6 +26,9 @@ function App() {
       <About />
       <Skills />
       <Knowledge />
+      <Carousel />
+      <Contact />
+      <Footer />
 
         {/* 
         
@@ -34,8 +36,7 @@ function App() {
         <Galeria />
         <Ejemplo />
         
-        <Contact />
-      <Footer />
+      
       */}
       </section>
 

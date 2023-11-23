@@ -35,6 +35,8 @@ i18n.use(initReactI18next).init({
         Conocimiento:'Knowledges',
         Estudios:'Studies',
         Experiencia:'Experience',
+        Volver:'back to top'
+        
 
 
 
@@ -66,6 +68,7 @@ i18n.use(initReactI18next).init({
         Conocimiento:'Conocimientos',
         Estudios:'Estudios',
         Experiencia:'Experiencia',
+        Volver:'Volver al inicio',
           },
 
     },

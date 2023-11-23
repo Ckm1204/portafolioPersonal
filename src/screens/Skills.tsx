@@ -101,7 +101,7 @@ const Skills = () => {
 
         <section className="flex flex-col items-center justify-center h-auto sm:h-96 w-60 sm:py-10 py-4  ">
           <img className="h-40 sm:h-52" src={English} alt="python svg" />
-          <section className="pb-4 pt-2 flex justify-items-start text-blackm text-3xl font-semibold font-Raleway">{t('Ingles')}</section>
+          <section className="pb-4 pt-2 flex justify-items-start text-blackm text-3xl font-semibold font-Raleway">{t('Ingles')} <br /> B2+</section>
         </section>
 
         
