@@ -1,12 +1,12 @@
 
 import Header from "../components/Header"
 import Home from "../screens/Home"
-//import About from "./About"
+import About from "./About"
 //import Carrusel from "./Carrusel"
 //import Ejemplo from "./Ejemplo"
 //import Galeria from "./Galeria"
-//import Skills from "./Skills"
-//import Knowledge from "./Knowledge"
+import Skills from "./Skills"
+import Knowledge from "./Knowledge"
 //import Contact from "./Contact"
 //import Footer from "../components/Footer"
 
@@ -24,13 +24,16 @@ function App() {
       
       <section className="w-screen h-screen overflow-hidden overflow-y-auto  ">
       <Home />
+      <About />
+      <Skills />
+      <Knowledge />
+
         {/* 
         
-        <About />
+        
         <Galeria />
         <Ejemplo />
-        <Skills />
-        <Knowledge />
+        
         <Contact />
       <Footer />
       */}
